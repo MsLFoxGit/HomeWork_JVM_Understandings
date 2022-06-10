@@ -42,7 +42,7 @@ Application ClassLoader  грузит в `MetaSpace` класс `JvmComprehensio
 
 >> В `heap` записывается объект `String = o.toString()`. В `Stack` во фрейм `out.println` записывается ссылка на `String = o.toString()`
 
->> Далле удалется исполненый `to.string` фреймы со ссылками, 
+>> Далле удалется исполненый `toString()` фреймы со ссылками, 
 
 >> Далее тоже самое делается для объектов  `ii` и `i` (через внутреннюю реализацию )
 
